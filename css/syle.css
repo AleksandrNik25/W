@@ -11,6 +11,7 @@
 body{
     background-color: var(--bg-color);
     color: var(--primary-text-color);
+    font-family: "Roboto", sans-serif;
 }
 ul{
     list-style: none;
@@ -24,21 +25,28 @@ a{
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
-  
+  padding: 0;  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.logo{
+.header-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
     color: var(--secondary-text-color);
 }
 .logo-accent{
     color: var(--accent-color);
 }
-.nav-link{
+.nav-link, .auth-nav-link{
     color: var(--secondary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.33;
+
 }
 .nav-link:hover, .nav-link:focus{
     color: var(--accent-color);
@@ -54,24 +62,43 @@ a{
     color: var(--accent-color);
 }
 
-
+/* -------------------HERO------------------ */
 .hero{
     background-color: var(--secondary-text-color);
 }
 .hero-title{
     color: var(--bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+
 }
 .button{
  color: var(--bg-color);
- background-color: var(--accent-color);   
+ background-color: var(--accent-color); 
+ cursor: pointer;  
+}
+.hero-button{
+    font-size: 16px;
+    line-height: 1.85;
+    font-weight: 700;
 }
 
 .advantages-title{
     color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.33;
 }
-            
+.advantages-text{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 3%;
+}            
 .work-title,.commamd-title, .command-name{
     color: var(--secondary-text-color);
+   
 }
 
 .footer{
@@ -106,3 +133,4 @@ a{
 .gallery-text{
     color: var(--primary-text-color);
 }
+
